@@ -1,10 +1,9 @@
 Programmer: Jesse Griffin
-Assignment 10: Server/Client FTP
+Server/Client FTP
 Due Date: 4/15/19
-Professor: Ben McCamish
 
 Program Description:
-    This assignment in a culmination of two programs. It
+    This repo in a culmination of two programs. It
     uses both a server and client program.
 
     The server program will be a daemon that constantly
@@ -22,6 +21,8 @@ Run Program:
     To compile the server program, use command:
 
         > gcc -o mftpserve mftpserve.c
+        or
+        > make
 
     This will create an executable named "mftpserve" that
     will need to be ran before the client code can connect
@@ -35,6 +36,8 @@ Run Program:
     To compile the server program, use command:
 
         > gcc -o mftp mftp.c
+        or
+        > make
 
     This will create an executable named "mftp" that
     will be ran to connect to the server
